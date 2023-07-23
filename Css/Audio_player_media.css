@@ -1,0 +1,44 @@
+@media (min-width: 201px) and (max-width: 700px) {
+   :root{
+      --Song_total_current_duration_font-: 11px;
+   }
+   body,html{
+      overflow-x: hidden;
+   }
+.Audio_Player_container {
+   min-height: 100px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   width: 100vw;
+ }
+ .Audio_player_box {
+   position: relative;
+   min-height: 30vh !important;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ .song_plus_name{
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+ .Audio_player_playing_section {
+  top: 100px !important;
+   width: 90%;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+ .Audio_player_volume_Section{
+  width: 100%;
+  margin-top: 195px;
+ }
+ .Duration_range{
+   width: 77%;
+ }
+}

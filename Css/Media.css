@@ -1,0 +1,1491 @@
+@media (min-width: 601px) and (max-width: 700px) {
+  :root {
+    --Side_all_categories_font_size-: 1.05rem;
+    --Three_dots_font_size-: 1.05rem;
+  }
+  html {
+    font-size: 100%;
+  }
+  .Navigation_options_background {
+    display: none;
+  }
+  .Navigation_options_background {
+    width: max-content;
+  }
+
+  .nav_container {
+    height: 62px;
+  }
+  #contact_us {
+    display: none;
+  }
+  .Nav_anchors {
+    padding: 0 12px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+  }
+  /*===================================
+                        Logo 
+        ====================================*/
+
+  .Logo_container {
+    height: 100%;
+    width: 100px;
+  }
+  .logo_div {
+    height: 100%;
+  }
+  .logo_img {
+    width: 57px;
+  }
+  /*===================================
+                       Sign In 
+        ====================================*/
+  .sign_in {
+    display: none;
+  }
+  .sign_inbtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    width: 115px;
+    position: static;
+    margin-right: -126px;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 33px;
+  }
+
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 40px;
+    height: 18px;
+  }
+ 
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 400px;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    height: max-content;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Hero_background_image {
+    height: max-content;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+
+  .listen_btn_div {
+    margin-top: 40px;
+  }
+
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+    
+    .Plans_div{
+      flex-wrap: nowrap;
+    }
+  .Plans_container {
+    margin-top: 100px !important;
+  }
+ .Plans_comparison_Box{
+  justify-content: center;
+ }
+ .Basic_plan_box, .Standard_plan_box, .Premium_plan_box {
+  margin-top: inherit;
+ } 
+  /*===================================
+            Songs Categories
+    ====================================*/
+  .songs_container {
+    width: 100%;
+    height: 345px;
+  }
+  .songs_cata_container {
+    height: 800px;
+  }
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 92vw;
+    border-radius: 1%;
+    height: max-content;
+    margin-right: 17px;
+  }
+  .trending_songs_align {
+    height: 520px;
+  }
+  .trending_songs {
+    height: 280px;
+    width: 75vw;
+  }
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: 30px;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 100px;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 45%;
+  }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+  :root {
+    --Side_all_categories_font_size-: 1rem;
+    --Three_dots_font_size-: 1rem;
+  }
+  html {
+    font-size: 100%;
+  }
+  /*===================================
+        Hiding Navigation Bar For Pc  
+    ====================================*/
+  .Navigation_options_background {
+    display: none;
+  }
+  .nav_container {
+    height: 62px;
+  }
+  #contact_us {
+    display: none;
+  }
+  .Nav_anchors {
+    padding: 0 12px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+  }
+  /*===================================
+                        Logo 
+        ====================================*/
+
+  .Logo_container {
+    height: 100%;
+    width: 100px;
+  }
+  .logo_div {
+    height: 100%;
+  }
+  .logo_img {
+    width: 57px;
+  }
+  /*===================================
+                       Sign In 
+        ====================================*/
+  .sign_in {
+    display: none;
+  }
+  .sign_inbtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    width: 115px;
+    position: static;
+    margin-right: -66px;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 33px;
+  }
+
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 40px;
+    height: 18px;
+  }
+
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 80vw;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+  }
+  .Hero_background_image {
+    height: max-content;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+
+  .listen_btn_div {
+    margin-top: 40px;
+  }
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+
+  .Plans_div{
+    height: max-content;
+  }
+  .Plans_container {
+    margin-top: 100px !important;
+  }
+ .Plans_comparison_Box{
+  justify-content: center;
+ }
+ .Basic_plan_box, .Standard_plan_box, .Premium_plan_box {
+  margin-top: inherit;
+ } 
+  /*===================================
+            Songs Categories
+    ====================================*/
+  .songs_container {
+    width: 100%;
+  }
+  .songs_cata_container {
+    height: 1400px;
+  }
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 92vw;
+    border-radius: 1%;
+    margin-right: 17px;
+    height: max-content;
+  }
+  .trending_songs_align {
+    height: 520px;
+  }
+  .trending_songs {
+    height: 260px;
+    width: 80vw;
+  }
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: 30px;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 100px;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 31%;
+  }
+}
+@media (min-width: 425px) and (max-width: 500px) {
+  :root {
+    --Side_all_categories_font_size-: 1rem;
+    --Three_dots_font_size-: 1rem;
+  }
+  html {
+    font-size: 90%;
+  }
+  /*===================================
+        Hiding Navigation Bar For Pc  
+    ====================================*/
+  .Navigation_options_background {
+    display: none;
+  }
+  .nav_container {
+    height: 62px;
+  }
+  #contact_us {
+    display: none;
+  }
+  .Nav_anchors {
+    padding: 0 12px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+  }
+  /*===================================
+                        Logo 
+        ====================================*/
+
+  .Logo_container {
+    height: 100%;
+    width: 100px;
+  }
+  .logo_div {
+    height: 100%;
+  }
+  .logo_img {
+    width: 57px;
+  }
+  /*===================================
+                       Sign In 
+        ====================================*/
+  .sign_in {
+    display: none;
+  }
+  .sign_inbtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    width: 115px;
+    position: static;
+    margin-right: -26px;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 33px;
+  }
+
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 40px;
+    height: 18px;
+  }
+
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 80vw;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+  .Most_viewed_div {
+    width: 100vw;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .artist {
+    width: 70vw;
+  }
+  .most_viewed_box {
+    height: 380px;
+    width: 85vw;
+    margin-right: 15px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+  .Plans_div{
+    height: max-content;
+  }
+  .Plans_container {
+    margin-top: 100px !important;
+  }
+ .Plans_comparison_Box{
+  justify-content: center;
+ }
+ .Basic_plan_box, .Standard_plan_box, .Premium_plan_box {
+  margin-top: inherit;
+ } 
+  /*===================================
+            Songs Categories
+    ====================================*/
+  .songs_container {
+    width: 100%;
+  }
+  .songs_cata_container {
+    height: 1400px;
+  }
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 100vw;
+    border-radius: 1%;
+    height: max-content;
+  }
+  .trending_songs_align {
+    height: 520px;
+    margin-right: 20px;
+  }
+  .trending_songs {
+    height: 260px;
+    width: 90vw;
+  }
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: 30px;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 100px;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 31%;
+  }
+}
+@media (min-width: 300px) and (max-width: 424px) {
+  :root {
+    --Side_all_categories_font_size-: 1.2rem;
+    --Three_dots_font_size-: 1.1rem;
+  }
+  html {
+    font-size: 80%;
+  }
+  /*===================================
+        Hiding Navigation Bar For Pc  
+    ====================================*/
+  .Navigation_options_background {
+    display: none;
+  }
+  .nav_container {
+    height: 62px;
+  }
+  #contact_us {
+    display: none;
+  }
+  .Nav_anchors {
+    padding: 0 12px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+  }
+  /*===================================
+                        Logo 
+        ====================================*/
+
+  .Logo_container {
+    height: 100%;
+    width: 100px;
+  }
+  .logo_div {
+    height: 100%;
+  }
+  .logo_img {
+    width: 57px;
+  }
+  /*===================================
+                       Sign In 
+        ====================================*/
+  .sign_in {
+    display: none;
+  }
+  .sign_inbtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    width: 115px;
+    position: static;
+    margin-right: 10px;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 33px;
+  }
+
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 40px;
+    height: 18px;
+  }
+
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 100vw;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+  .Most_viewed_div {
+    width: 90vw;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  .artist {
+    width: 70vw;
+  }
+  .most_viewed_box {
+    height: 380px;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+    .Plans_div{
+      height: max-content;
+    }
+    .Plans_container {
+      margin-top: 100px !important;
+    }
+   .Plans_comparison_Box{
+    justify-content: center;
+   }
+   .Basic_plan_box, .Standard_plan_box, .Premium_plan_box {
+    margin-top: inherit;
+   } 
+  /*===================================
+            Songs Categories
+    ====================================*/
+  .songs_container {
+    width: 100%;
+  }
+  .songs_cata_container {
+    height: 1400px;
+  }
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 100vw;
+    border-radius: 1%;
+    height: max-content;
+  }
+  .trending_songs_align {
+    height: 370px;
+    margin-right: 20px;
+  }
+  .trending_songs {
+    height: 182px;
+    width: 80vw;
+  }
+  #trending1,
+  #trending8 {
+    height: 166px;
+  }
+  #trending2,
+  #trending9 {
+    background: url(/Images/Trending_songs//Mobile/Cute_song_small.jpg) center
+      no-repeat;
+  }
+  #trending3,
+  #trending10 {
+    background: url(/Images/Trending_songs/Mobile/dooja_pyaar_small.jpg) center
+      no-repeat;
+  }
+  #trending4,
+  #trending11 {
+    background: url(/Images/Trending_songs/Mobile/Humrazi_small.jpg) center
+      no-repeat;
+  }
+  #trending5,
+  #trending12 {
+    background: url(/Images/Trending_songs/Mobile/Kahani_small.jpg) center
+      no-repeat;
+  }
+  #trending6,
+  #trending13 {
+    background: url(/Images/Trending_songs/Mobile/Mere_sanam_small.jpg) center
+      no-repeat;
+  }
+  #trending7,
+  #trending14 {
+    background: url(/Images/Trending_songs/Mobile/Pasoori_small.jpg) center
+      no-repeat;
+  }
+
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: 30px;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 80px;
+    height: 30px;
+  }
+  .Play-trend {
+    height: 44%;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 55%;
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 268px) and (max-width: 299px) {
+  :root {
+    --Side_all_categories_font_size-: 1.2rem;
+    --Three_dots_font_size-: 1.1rem;
+  }
+  html {
+    font-size: 80%;
+  }
+  .Salmon_heading {
+    font-size: 4rem !important;
+  }
+  .salmon_motto {
+    font-size: 1rem !important;
+    margin-right: 0px !important;
+  }
+  .btn_rounded_wb {
+    font-size: 15px !important;
+  }
+  .Plans_tik_icon {
+    left: 18px !important;
+  }
+  .Cross_feature_icon {
+    left: 18px !important;
+  }
+}
+@media (min-width: 201px) and (max-width: 299px) {
+  :root {
+    --Side_all_categories_font_size-: 1.2rem;
+    --Three_dots_font_size-: 1.1rem;
+  }
+  html {
+    font-size: 70%;
+  }
+  .nav_container {
+    justify-content: space-between;
+  }
+  /*===================================
+        Hiding Navigation Bar For Pc  
+    ====================================*/
+  .Navigation_options_background {
+    display: none;
+  }
+  .nav_container {
+    height: 62px;
+  }
+  .Nav_anchors {
+    padding: 0 12px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+  }
+  /*===================================
+                        Logo 
+        ====================================*/
+
+  .Logo_container {
+    height: 100%;
+    width: 70px;
+  }
+  .logo_div {
+    height: 100%;
+  }
+  .logo_img {
+    width: 57px;
+  }
+  /*===================================
+                       Sign In 
+        ====================================*/
+  .sign_in {
+    display: none;
+  }
+  .sign_inbtn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    width: 115px;
+    position: static;
+    margin-right: 26px;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 33px;
+  }
+
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 22px;
+    height: 16px;
+  }
+  
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 100vw;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    flex-wrap: wrap;
+    height: 50vh;
+    justify-content: center;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+  .Salmon_heading {
+    font-size: 3rem;
+  }
+  .salmon_motto {
+    font-size: 0.8rem;
+    margin-right: 13px;
+  }
+  .btn_rounded_wb {
+    font-size: 12px;
+  }
+
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+    .Plans_div{
+      height: max-content;
+    }
+  .Plans_container {
+    margin-top: 80px;
+  } 
+  .Plans_comparison_Box{
+    justify-content: center;
+   }
+   .Basic_plan_box, .Standard_plan_box, .Premium_plan_box {
+    margin-top: inherit;
+   } 
+  /*===================================
+            Songs Categories
+    ====================================*/
+  
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .Hero_songs_play {
+    padding: 6px 40px;
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 100vw;
+    border-radius: 1%;
+    height: max-content;
+  }
+  .trending_songs_align {
+    height: 308px;
+    margin-right: 20px;
+  }
+  .trending_songs {
+    height: 182px;
+    width: 90vw;
+  }
+  #trending1,
+  #trending8 {
+    height: 150px;
+  }
+  #trending2,
+  #trending9 {
+    background: url(/Images/Trending_songs//Mobile/Cute_song_small.jpg) center
+      no-repeat;
+  }
+  #trending3,
+  #trending10 {
+    background: url(/Images/Trending_songs/Mobile/dooja_pyaar_small.jpg) center
+      no-repeat;
+  }
+  #trending4,
+  #trending11 {
+    background: url(/Images/Trending_songs/Mobile/Humrazi_small.jpg) center
+      no-repeat;
+  }
+  #trending5,
+  #trending12 {
+    background: url(/Images/Trending_songs/Mobile/Kahani_small.jpg) center
+      no-repeat;
+  }
+  #trending6,
+  #trending13 {
+    background: url(/Images/Trending_songs/Mobile/Mere_sanam_small.jpg) center
+      no-repeat;
+  }
+  #trending7,
+  #trending14 {
+    background: url(/Images/Trending_songs/Mobile/Pasoori_small.jpg) center
+      no-repeat;
+  }
+
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: 6px;
+    width: 150px;
+  }
+  .navigate_trending_songs {
+    height: 20%;
+    width: 130px;
+  }
+  .trending_songs_dots {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 80px;
+    height: 30px;
+  }
+  .Play-trend {
+    height: 44%;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 55%;
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 0px) and (max-width: 200px) {
+  :root {
+    --Side_all_categories_font_size-: 1.2rem;
+    --Three_dots_font_size-: 1.1rem;
+  }
+  html {
+    font-size: 70%;
+  }
+  .nav_container {
+    justify-content: space-between;
+  }
+  /*===================================
+        Hiding Navigation Bar For Pc  
+    ====================================*/
+  .Navigation_options_background {
+    display: none;
+  }
+  /*===================================
+                    Logo 
+    ====================================*/
+  .Logo_container {
+    max-width: 100px;
+    min-height: 60px;
+  }
+  .logo_div {
+    height: 60px;
+    width: 60px;
+  }
+  .logo_img {
+    width: 59px;
+  }
+  /*===================================
+                   Sign In 
+    ====================================*/
+  .sign_in {
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .Sign_in_btn {
+    padding: 8px 16%;
+  }
+  .login {
+    width: 30px;
+  }
+  /*===================================
+          Dots Details Container
+    ====================================*/
+  .dots_Details_cont {
+    width: 65vw;
+  }
+  /*===================================
+                   Search Button
+    ====================================*/
+  .search_div {
+    height: 20px;
+    margin-right: 66px;
+    width: 20px;
+    position: static;
+  }
+  .Search_img img {
+    cursor: pointer;
+    height: 38px;
+  }
+  /*===================================
+                Search Input Tag
+    ====================================*/
+  .seach_btn_input {
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -340%);
+  }
+  .search_input {
+    width: 70vw;
+    position: relative;
+  }
+  .search_input::placeholder {
+    left: 75px;
+  }
+  .Search_tool_tip::after {
+    display: none;
+  }
+  .Search_tool_tip::before {
+    display: none;
+  }
+  /*===================================
+                 Side Menu Icon
+    ====================================*/
+  .Side_menu_icon {
+    right: 30px;
+  }
+  /*===================================
+                 Side Bar
+    ====================================*/
+  .Side_bar_container {
+    width: 100vw;
+  }
+  /*===================================
+                Hero Section
+    ====================================*/
+  .hero_background {
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+  }
+  .main_heading {
+    height: 180px;
+    width: 100vw;
+    margin-top: 160px;
+  }
+  .Salmon_heading {
+    font-size: 3rem;
+  }
+  .salmon_motto {
+    font-size: 0.8rem;
+    margin-right: 13px;
+  }
+  .btn_rounded_wb {
+    font-size: 12px;
+  }
+
+  /*===================================
+             Plan Compaison Boxes
+    ====================================*/
+  .Plans_container {
+    margin-top: 80px;
+  }
+  .Plans_comparison_Box {
+    width: 90%;
+  }
+  .Standard_plan_box,
+  .Premium_plan_box {
+    margin-top: 20px;
+    width: 100vw !important;
+  }
+  .Basic_plan {
+    margin-top: 14px;
+  }
+  .Three_plans {
+    margin-right: 8px;
+    height: 229px;
+  }
+  .Plans_div {
+    height: max-content;
+    margin-top: 200px;
+  }
+  .Premium_plan_imgs {
+    margin-right: 0px;
+  }
+  .Plans_tik_icon {
+    left: 8px;
+  }
+  .Cross_feature_icon {
+    left: 8px;
+  }
+  /*===================================
+            Songs Categories
+    ====================================*/
+  .songs_cata_container {
+    height: 1400px;
+  }
+  .songs_cata_box {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .songs_cata {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .songs_cata .cata_bg_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  .songs_cata:hover .cata_arrow {
+    transform: scale(0.6);
+  }
+  .Hero_songs_play {
+    padding: 6px 40px;
+  }
+  .cata_arrow {
+    right: 23%;
+    transform: scale(0.9);
+  }
+  /*===================================
+              Trending Songs 
+  ====================================*/
+  .Trending_Container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .trending_box {
+    width: 100vw;
+    border-radius: 1%;
+    height: max-content;
+  }
+  .trending_songs_align {
+    height: 378px;
+    margin-right: 20px;
+  }
+  .trending_songs {
+    height: 162px;
+    width: 90vw;
+  }
+  #trending1,
+  #trending8 {
+    height: 180px;
+  }
+  #trending1,
+  #trending8 {
+    background: url(/Images/Trending_songs/Bewafa_thumbnail.jpg) center/cover;
+  }
+  #trending2,
+  #trending9 {
+    background: url(/Images/Trending_songs//Mobile/Cute_song_small.jpg) center
+      no-repeat;
+  }
+  #trending3,
+  #trending10 {
+    background: url(/Images/Trending_songs/Mobile/dooja_pyaar_small.jpg) center
+      no-repeat;
+  }
+  #trending4,
+  #trending11 {
+    background: url(/Images/Trending_songs/Mobile/Humrazi_small.jpg) center
+      no-repeat;
+  }
+  #trending5,
+  #trending12 {
+    background: url(/Images/Trending_songs/Mobile/Kahani_small.jpg) center
+      no-repeat;
+  }
+  #trending6,
+  #trending13 {
+    background: url(/Images/Trending_songs/Mobile/Mere_sanam_small.jpg) center
+      no-repeat;
+  }
+  #trending7,
+  #trending14 {
+    background: url(/Images/Trending_songs/Mobile/Pasoori_small.jpg) center
+      no-repeat;
+  }
+
+  .trending_heading_div {
+    height: 300px;
+  }
+  .trending_dots_align {
+    height: 57px;
+    margin-top: -6px;
+    width: 150px;
+  }
+  .navigate_trending_songs {
+    height: 20%;
+    width: 130px;
+  }
+  .trending_songs_dots {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+  }
+  /*            Overlay          */
+  .trending_song_option {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Play Button  */
+  .trending_play_btn {
+    width: 80px;
+    height: 30px;
+  }
+  .Play-trend {
+    height: 44%;
+  }
+  /* Song Name  */
+  .trending_song_name {
+    height: 55%;
+    font-size: 1rem;
+  }
+}
