@@ -683,30 +683,28 @@ let current_volume = document.getElementById('current_volume');
 let Volume_input = document.getElementById('volume_input');
 // Creating Audio Element With the help of JavaScript 
 let Nasheed = new Audio();
-let Liyakun = new Audio();
-let Dewana_song = new Audio();
-let Pasoori_song = new Audio();
-let Salah_uddin = new Audio();
-let Toh_phir = new Audio();
-let Santra = new Audio();
-let Wal_khattu = new Audio();
-let Cvrtoon = new Audio();
-let letmedown = new Audio();
+let Meradil = new Audio();
+let Meriulfat = new Audio();
+let Pyarenabi = new Audio();
+let Mkaroza = new Audio();
+let Kabaykironaq = new Audio();
+let Faslonko = new Audio();
+let Aeiallah = new Audio();
+
 // Giving Source to them
 Nasheed.src = 'Songs/Nasheed_love-and-life.mp3';
-Liyakun.src = 'Songs/Liyakun.mp3';
-Dewana_song.src = 'Songs/Dewana.mp3';
-Pasoori_song.src = 'Songs/Pasoori.mp3';
-Salah_uddin.src = 'Songs/Salah-ud-in.mp3';
-Toh_phir.src = 'Songs/Toh_phir.mp3';
-Santra.src = 'Songs/Santra.mp3';
-Wal_khattu.src = 'Songs/wal_khattu.mp3';
-Cvrtoon.src = 'Songs/CVRTOON.mp3';
-letmedown.src = './Songs/letmedown.mp3';
+Meradil.src = 'Songs/Mera_dil.mp3';
+Meriulfat.src = 'Songs/Meri_ulfat.mp3';
+Pyarenabi.src = 'Songs/Pyare_nabi.mp3';
+Mkaroza.src = 'Songs/M_ka_roza.mp3';
+Kabaykironaq.src = 'Songs/Kabay_ki_ronaq.mp3';
+Faslonko.src = 'Songs/Faslon_ko.mp3';
+Aeiallah.src = 'Songs/Aei_allah.mp3';
+
 // Creating Array of these songs to play in sequence 
-const All_songs = [Nasheed, Liyakun, Dewana_song, Pasoori_song, Salah_uddin, Toh_phir, Santra, Wal_khattu,Cvrtoon,letmedown];
-const total_duration = ['2<b>:</b>23','3<b>:</b>28','4<b>:</b>14', '3<b>:</b>46', '3<b>:</b>54', '4<b>:</b>30', '0<b>:</b>36', '5<b>:</b>12', '4<b>:</b>18','3<b>:</b>01']
-const Song_names = ['Nasheed - Love and life','Liyakun - shamay','Dewana kr rha hai','Pasoori','Salah-ud-din Ayyubi sound','Toh phir aao mugh ko stao','Cvrtoon Fired','Wal khattu husaini','CVRTOON - İzmir Marşi','Let me down slowly'];
+const All_songs = [Nasheed, Meradil, Meriulfat, Pyarenabi, Mkaroza, Kabaykironaq, Faslonko, Aeiallah];
+const total_duration = ['2<b>:</b>23','6<b>:</b>02','5<b>:</b>56', '5<b>:</b>52', '6<b>:</b>45', '12<b>:</b>16', '4<b>:</b>36', '5<b>:</b>00']
+const Song_names = ['Nasheed - Love and life','Mera Dil Badal de','Meri Ulfat Madine se unhi nahi','Pyare Nabi','Muhammad ka Roza','Kabay Ki Ronaq','Faslon Ko Takaluf','Aei Allah'];
 // Next and Previous Song Logic here 
 let i = 0;
 Next_song = () => {
